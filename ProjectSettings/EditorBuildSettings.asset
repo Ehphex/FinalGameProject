@@ -6,7 +6,13 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Dungeon 1.unity
+    path: Assets/Scenes/Entrance.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/Level 1.unity
+    guid: 7dfe9be1b88b1d0438addc86fb345df3
+  - enabled: 1
+    path: Assets/Scenes/Level 2.unity
+    guid: 168b0b83e1438a4459371c2d78e5484d
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
