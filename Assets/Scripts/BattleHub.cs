@@ -1,16 +1,13 @@
 using UnityEngine;
+using UnityEngine.UI;
 
 public class BattleHub : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
+    [SerializeField] Text nameText;
+    [SerializeField] Text levelText;
+    [SerializeField] HPBar hpBar;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    public void SetData()
+
+
 }
