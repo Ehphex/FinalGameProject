@@ -1,0 +1,650 @@
+fileFormatVersion: 2
+guid: 6da164e9efddf4699a417ae08f50a8ba
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pixel-animation-complete-sprite-sheet-example_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 673
+        width: 170
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c476da5966ab24f2d85cbd8955e52ffb
+      internalID: 1272092710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel-animation-complete-sprite-sheet-example_1
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 673
+        width: 170
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 365515c84cb694d129688babd117654b
+      internalID: -1338503572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel-animation-complete-sprite-sheet-example_2
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 673
+        width: 170
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99b00088463ba4c6f9cff84f42abeb64
+      internalID: -1792054226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel-animation-complete-sprite-sheet-example_3
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 673
+        width: 170
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cd21b8d7418b460c86ffeac95364705
+      internalID: -1066096027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel-animation-complete-sprite-sheet-example_4
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 673
+        width: 170
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a714d1fc96b20421396aeadf8f81b782
+      internalID: 1681120740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel-animation-complete-sprite-sheet-example_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 513
+        width: 170
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 196f1019bbc884307b117dc388ef1124
+      internalID: 573377741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel-animation-complete-sprite-sheet-example_6
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 513
+        width: 170
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e54fd652c3c4b405bbb8431c66441cbe
+      internalID: 124604563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel-animation-complete-sprite-sheet-example_7
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 513
+        width: 170
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6346e21b615cb4bae8eba279cf6a56ad
+      internalID: 2069835698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel-animation-complete-sprite-sheet-example_8
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 513
+        width: 170
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d8c79c9d868845ed8f46d0f8d96146f
+      internalID: 1874716001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel-animation-complete-sprite-sheet-example_9
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 513
+        width: 170
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 655ff6d0bd8a54123875c55bbd612b78
+      internalID: 1124467969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel-animation-complete-sprite-sheet-example_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 353
+        width: 170
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6629cb2ade05d41c9a1c0faed1e1579e
+      internalID: 960685163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel-animation-complete-sprite-sheet-example_11
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 353
+        width: 170
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5f9e3ce63b2d43f4ae5aa6996207f53
+      internalID: 998609234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel-animation-complete-sprite-sheet-example_12
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 353
+        width: 170
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f57e49932ea394bc8ab64b1d3588e11e
+      internalID: 28494594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel-animation-complete-sprite-sheet-example_13
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 353
+        width: 170
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0506d90b37fd74cdf909c80f63c09687
+      internalID: 871446798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel-animation-complete-sprite-sheet-example_14
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 353
+        width: 170
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e249407694ee406aa389f3597739099
+      internalID: -390975758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel-animation-complete-sprite-sheet-example_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 193
+        width: 170
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca2b8f9bba54847089fc229e53b8e983
+      internalID: -1338173150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel-animation-complete-sprite-sheet-example_16
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 193
+        width: 170
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82a3379f71741403bbb40906d945a156
+      internalID: -610836459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel-animation-complete-sprite-sheet-example_17
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 193
+        width: 170
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3025724d1494c414aa3573476980356e
+      internalID: -1183913310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel-animation-complete-sprite-sheet-example_18
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 193
+        width: 170
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc38d8f5304074274a7f7c116e46ca32
+      internalID: -171122328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel-animation-complete-sprite-sheet-example_19
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 193
+        width: 170
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07e04d6e31a244742b73bc99a799f194
+      internalID: -843146741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel-animation-complete-sprite-sheet-example_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 33
+        width: 170
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bad37bcc1a6a4a16bafe38b532c935e
+      internalID: 1134110889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel-animation-complete-sprite-sheet-example_21
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 33
+        width: 170
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81690e5f8354548c58a8351cecdb0690
+      internalID: -2063990897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel-animation-complete-sprite-sheet-example_22
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 33
+        width: 170
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecba82bd758a44faf8192b676bd5cd14
+      internalID: -1453926772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 7088d99c7d4304883aede299826157dc
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceOnImport
+        value: True
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":true,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":170.0,"y":160.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      pixel-animation-complete-sprite-sheet-example_0: 1272092710
+      pixel-animation-complete-sprite-sheet-example_1: -1338503572
+      pixel-animation-complete-sprite-sheet-example_10: 960685163
+      pixel-animation-complete-sprite-sheet-example_11: 998609234
+      pixel-animation-complete-sprite-sheet-example_12: 28494594
+      pixel-animation-complete-sprite-sheet-example_13: 871446798
+      pixel-animation-complete-sprite-sheet-example_14: -390975758
+      pixel-animation-complete-sprite-sheet-example_15: -1338173150
+      pixel-animation-complete-sprite-sheet-example_16: -610836459
+      pixel-animation-complete-sprite-sheet-example_17: -1183913310
+      pixel-animation-complete-sprite-sheet-example_18: -171122328
+      pixel-animation-complete-sprite-sheet-example_19: -843146741
+      pixel-animation-complete-sprite-sheet-example_2: -1792054226
+      pixel-animation-complete-sprite-sheet-example_20: 1134110889
+      pixel-animation-complete-sprite-sheet-example_21: -2063990897
+      pixel-animation-complete-sprite-sheet-example_22: -1453926772
+      pixel-animation-complete-sprite-sheet-example_3: -1066096027
+      pixel-animation-complete-sprite-sheet-example_4: 1681120740
+      pixel-animation-complete-sprite-sheet-example_5: 573377741
+      pixel-animation-complete-sprite-sheet-example_6: 124604563
+      pixel-animation-complete-sprite-sheet-example_7: 2069835698
+      pixel-animation-complete-sprite-sheet-example_8: 1874716001
+      pixel-animation-complete-sprite-sheet-example_9: 1124467969
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
