@@ -176,9 +176,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Enemy
+  m_text: 'Life
 
-    Health'
+    Force'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -336,7 +336,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.CanvasScaler
   m_UiScaleMode: 0
   m_ReferencePixelsPerUnit: 100
-  m_ScaleFactor: 0.21
+  m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
@@ -426,7 +426,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Enemy \nStamina"
+  m_text: 'Will
+
+    Power'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -536,11 +538,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AttackScript
   isPlayer: 0
-  maxMeleeHealth: 100
-  maxRangeHealth: 80
-  meleeDamage: 12
-  rangeDamage: 10
-  guardReduction: 0.5
+  maxMeleeHealth: 200
+  maxRangeHealth: 180
+  meleeDamage: 30
+  rangeDamage: 30
+  guardReduction: 0.7
   enemyTarget: {fileID: 517408871}
   meleeHealthSlider: {fileID: 1661078213}
   rangeHealthSlider: {fileID: 454390014}
@@ -782,7 +784,7 @@ Transform:
   m_GameObject: {fileID: 438703472}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.337, y: 5.516, z: 0}
+  m_LocalPosition: {x: 1.17, y: 6.99, z: 0}
   m_LocalScale: {x: 0.16457748, y: 0.1525, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1367,7 +1369,7 @@ Transform:
   m_GameObject: {fileID: 641563686}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.604, y: 5.558, z: 0}
+  m_LocalPosition: {x: -0.64, y: 6.96, z: 0}
   m_LocalScale: {x: 0.1101, y: 0.1525, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3406,8 +3408,8 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 25
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -199370826, guid: 6865b32ec5117428a8c2fbf8d724a07e, type: 3}
-  m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_Sprite: {fileID: 1087422367, guid: 6865b32ec5117428a8c2fbf8d724a07e, type: 3}
+  m_Color: {r: 0.4, g: 0.4, b: 0.4, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -3426,8 +3428,8 @@ Transform:
   m_GameObject: {fileID: 1888851522}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.38, y: 2.45, z: 0}
-  m_LocalScale: {x: 2.6467617, y: 2.425463, z: 1}
+  m_LocalPosition: {x: 0.537, y: 2.6899, z: 0}
+  m_LocalScale: {x: 3.106715, y: 3.0866416, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
