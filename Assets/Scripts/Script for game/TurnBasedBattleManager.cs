@@ -145,7 +145,7 @@ public class TurnBasedBattleManager : MonoBehaviour
                 }
                 else if (player.WasCaptured)
                 {
-                    battleText.text = "You were captured!";
+                    battleText.text = "You were Burned out!";
                 }
                 else
                 {
