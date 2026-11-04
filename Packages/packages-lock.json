@@ -63,7 +63,7 @@
     },
     "com.unity.2d.sprite": {
       "version": "1.0.0",
-      "depth": 0,
+      "depth": 1,
       "source": "builtin",
       "dependencies": {}
     },
@@ -80,7 +80,7 @@
     },
     "com.unity.2d.tilemap": {
       "version": "1.0.0",
-      "depth": 0,
+      "depth": 1,
       "source": "builtin",
       "dependencies": {
         "com.unity.modules.tilemap": "1.0.0",
@@ -127,6 +127,16 @@
       },
       "url": "https://packages.unity.com"
     },
+    "com.unity.cinemachine": {
+      "version": "3.1.7",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.splines": "2.0.0",
+        "com.unity.modules.imgui": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
     "com.unity.collab-proxy": {
       "version": "2.13.6",
       "depth": 0,
@@ -150,6 +160,22 @@
       "depth": 1,
       "source": "builtin",
       "dependencies": {}
+    },
+    "com.unity.feature.2d": {
+      "version": "2.0.2",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {
+        "com.unity.2d.animation": "15.1.0",
+        "com.unity.2d.pixel-perfect": "6.0.0",
+        "com.unity.2d.psdimporter": "14.0.3",
+        "com.unity.2d.sprite": "1.0.0",
+        "com.unity.2d.spriteshape": "15.0.3",
+        "com.unity.2d.tilemap": "1.0.0",
+        "com.unity.2d.tilemap.extras": "8.0.3",
+        "com.unity.2d.aseprite": "5.0.3",
+        "com.unity.2d.tooling": "3.0.1"
+      }
     },
     "com.unity.ide.rider": {
       "version": "3.0.38",
@@ -235,6 +261,13 @@
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
+    "com.unity.settings-manager": {
+      "version": "2.1.1",
+      "depth": 2,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
     "com.unity.shadergraph": {
       "version": "17.5.0",
       "depth": 1,
@@ -243,6 +276,17 @@
         "com.unity.render-pipelines.core": "17.5.0",
         "com.unity.searcher": "4.9.3"
       }
+    },
+    "com.unity.splines": {
+      "version": "2.9.0",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.mathematics": "1.2.1",
+        "com.unity.modules.imgui": "1.0.0",
+        "com.unity.settings-manager": "1.0.3"
+      },
+      "url": "https://packages.unity.com"
     },
     "com.unity.test-framework": {
       "version": "1.7.0",
@@ -297,6 +341,23 @@
         "com.unity.modules.jsonserialize": "1.0.0"
       },
       "url": "https://packages.unity.com"
+    },
+    "dev.yarnspinner.unity": {
+      "version": "3.2.8",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://package.openupm.com"
+    },
+    "dev.yarnspinner.unity.samples": {
+      "version": "https://github.com/YarnSpinnerTool/YarnSpinner-Unity-Samples.git#current",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "dev.yarnspinner.unity": "3.2.4",
+        "com.unity.shadergraph": "14.0.0"
+      },
+      "hash": "4e42a0a13f8c2fe1597ee65c902cf9f107e901be"
     },
     "com.unity.modules.accessibility": {
       "version": "1.0.0",
