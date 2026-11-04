@@ -1,30 +1,38 @@
-using System;
+using System; 
 using UnityEngine;
 
 public class Unlock : MonoBehaviour
 {
-    [SerializeField] GameObject key;
+    [SerializeField] private FollowPlayer key;
+    [SerializeField] private PlatePressed locker;
+    public bool isUnlocked = false; 
 
-    private bool isUnlocked = false;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+     
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if (locker != null && locker.isPressed)
+        {
+            isUnlocked = true;
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("bluekey"))
+        if (collision.CompareTag("Player"))
         {
-            // Unlock the door
-            isUnlocked = true;
-            Destroy(gameObject); // Destroy the door object
+            // Unlock the next floor
+            if (key != null && key.isCollected)
+            {
+                isUnlocked = true;
+                Debug.Log("Unlocked the next floor!");
+                Destroy(key.gameObject);
+            }
         }
     }
 }

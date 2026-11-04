@@ -2,15 +2,15 @@ using UnityEngine;
 
 public class EnterEncounter : MonoBehaviour
 {
+    [SerializeField] private bool isTouching;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        if (other.CompareTag("Player"))
+        {
+   
+            SceneController.Instance.LoadScene("Pokemon 1"); // Load the encounter scene
+        }
     }
 }

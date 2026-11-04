@@ -1,9 +1,9 @@
 using UnityEngine;
 
-public class MoveBase : MonoBehaviour
+/*public class MoveBase : MonoBehaviour
 {
    [CreateAssetMenu(fileName ="Move", MenuName = "Monster/Create new more")]
-public class MoveBase ; ScriptableObject
+public class MoveBase ScriptableObject;
     {
         [SerializeField] string name;
 
@@ -17,4 +17,4 @@ public class MoveBase ; ScriptableObject
     }
 
     
-}
+}*/
