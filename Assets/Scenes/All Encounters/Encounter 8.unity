@@ -538,11 +538,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AttackScript
   isPlayer: 0
-  maxMeleeHealth: 100
-  maxRangeHealth: 80
-  meleeDamage: 12
-  rangeDamage: 10
-  guardReduction: 0.5
+  maxMeleeHealth: 500
+  maxRangeHealth: 500
+  meleeDamage: 80
+  rangeDamage: 20
+  guardReduction: 0.9
   enemyTarget: {fileID: 517408871}
   meleeHealthSlider: {fileID: 1661078213}
   rangeHealthSlider: {fileID: 454390014}
@@ -784,7 +784,7 @@ Transform:
   m_GameObject: {fileID: 438703472}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.9, y: 5.4, z: 0}
+  m_LocalPosition: {x: -4.2, y: 7.12, z: 0}
   m_LocalScale: {x: 0.16457748, y: 0.1525, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1369,7 +1369,7 @@ Transform:
   m_GameObject: {fileID: 641563686}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.91, y: 5.41, z: 0}
+  m_LocalPosition: {x: -4.22, y: 7.12, z: 0}
   m_LocalScale: {x: 0.1101, y: 0.1525, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1446,7 +1446,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 9.57, y: 4.49}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -3408,12 +3408,12 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 25
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 264578229, guid: 6865b32ec5117428a8c2fbf8d724a07e, type: 3}
+  m_Sprite: {fileID: 1969754436, guid: 6865b32ec5117428a8c2fbf8d724a07e, type: 3}
   m_Color: {r: 0.4, g: 0.4, b: 0.4, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 5.41, y: 3.37}
+  m_Size: {x: 6.3399997, y: 4.68}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -3428,8 +3428,8 @@ Transform:
   m_GameObject: {fileID: 1888851522}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.38, y: 2.2509, z: 0}
-  m_LocalScale: {x: 2.6467617, y: 2.5855565, z: 1}
+  m_LocalPosition: {x: 0.25, y: 3.21, z: 0}
+  m_LocalScale: {x: 2.8976746, y: 2.8306673, z: 1.0948}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
