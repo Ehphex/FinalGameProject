@@ -568,7 +568,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5.204775
+  orthographic size: 2
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
@@ -20490,7 +20490,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1685034089149108311, guid: 92780c305bef1b34c9d48c591f8c0801, type: 3}
       propertyPath: movementSpeed
-      value: 120
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 6238802216583597907, guid: 92780c305bef1b34c9d48c591f8c0801, type: 3}
       propertyPath: m_Name
@@ -20870,6 +20870,10 @@ PrefabInstance:
       value: CinemachineCamera
       objectReference: {fileID: 0}
     - target: {fileID: 6477977624943568523, guid: 164792dcbeb79c84283273fc725e319c, type: 3}
+      propertyPath: Lens.OrthographicSize
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6477977624943568523, guid: 164792dcbeb79c84283273fc725e319c, type: 3}
       propertyPath: Target.TrackingTarget
       value: 
       objectReference: {fileID: 1405071113}
@@ -20932,11 +20936,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2764152181368504307, guid: 26b1f466a32c42d4bbbabaa58991fb4b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 24.236
+      value: 24.033
       objectReference: {fileID: 0}
     - target: {fileID: 2764152181368504307, guid: 26b1f466a32c42d4bbbabaa58991fb4b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 8.198
+      value: 8.221
       objectReference: {fileID: 0}
     - target: {fileID: 2764152181368504307, guid: 26b1f466a32c42d4bbbabaa58991fb4b, type: 3}
       propertyPath: m_LocalPosition.z

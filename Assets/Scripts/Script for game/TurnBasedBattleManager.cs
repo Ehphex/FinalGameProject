@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class TurnBasedBattleManager : MonoBehaviour
@@ -106,14 +107,17 @@ public class TurnBasedBattleManager : MonoBehaviour
                 if (enemy.WasKilled)
                 {
                     battleText.text = "Enemy was killed!";
+                    SceneManager.UnloadSceneAsync("Encounter 1"); // Unload the encounter scene
                 }
                 else if (enemy.WasCaptured)
                 {
                     battleText.text = "Enemy was captured!";
+                    SceneManager.UnloadSceneAsync("Encounter 1"); // Unload the encounter scene
                 }
                 else
                 {
                     battleText.text = "Victory!";
+                    SceneManager.UnloadSceneAsync("Encounter 1");
                 }
             }
             playerTurn = false;
@@ -142,14 +146,17 @@ public class TurnBasedBattleManager : MonoBehaviour
                 if (player.WasKilled)
                 {
                     battleText.text = "You were killed!";
+                    SceneManager.LoadScene("Entrance");
                 }
                 else if (player.WasCaptured)
                 {
                     battleText.text = "You were Burned out!";
+                    SceneManager.LoadScene("Level 1");
                 }
                 else
                 {
                     battleText.text = "Defeat";
+                    SceneManager.LoadScene("Entrance");
                 }
             }
             yield break;
@@ -177,14 +184,17 @@ public class TurnBasedBattleManager : MonoBehaviour
                 if (player.WasKilled)
                 {
                     battleText.text = "You were killed!";
+                    SceneManager.LoadScene("Entrance");
                 }
                 else if (player.WasCaptured)
                 {
                     battleText.text = "You were captured!";
+                    SceneManager.LoadScene("Level 1");
                 }
                 else
                 {
                     battleText.text = "Defeat";
+                    SceneManager.LoadScene("Entrance");
                 }
             }
             playerTurn = false;

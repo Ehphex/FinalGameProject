@@ -5,18 +5,11 @@ public class Unlock : MonoBehaviour
 {
     [SerializeField] private FollowPlayer key;
     [SerializeField] private PlatePressed locker;
-
-    private SpriteRenderer spriteRenderer;
-
-    public Sprite unlockedSprite;
-    public Sprite lockedSprite;
     public bool isUnlocked = false; 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        spriteRenderer = GetComponent<SpriteRenderer>();
-        spriteRenderer.sprite = lockedSprite;
     }
      
 
@@ -26,7 +19,7 @@ public class Unlock : MonoBehaviour
         if (locker != null && locker.isPressed)
         {
             isUnlocked = true;
-            spriteRenderer.sprite = unlockedSprite;
+            Debug.Log("Unlocked the next floor!");
         }
     }
 

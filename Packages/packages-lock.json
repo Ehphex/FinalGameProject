@@ -349,6 +349,16 @@
       "dependencies": {},
       "url": "https://package.openupm.com"
     },
+    "dev.yarnspinner.unity.samples": {
+      "version": "https://github.com/YarnSpinnerTool/YarnSpinner-Unity-Samples.git#current",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "dev.yarnspinner.unity": "3.2.4",
+        "com.unity.shadergraph": "14.0.0"
+      },
+      "hash": "4e42a0a13f8c2fe1597ee65c902cf9f107e901be"
+    },
     "com.unity.modules.accessibility": {
       "version": "1.0.0",
       "depth": 0,
