@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class EnterEncounter : MonoBehaviour
 {
@@ -10,7 +11,7 @@ public class EnterEncounter : MonoBehaviour
         if (other.CompareTag("Player"))
         {
    
-            SceneController.Instance.LoadScene("Pokemon 1"); // Load the encounter scene
+           SceneManager.LoadScene("Pokemon 3", LoadSceneMode.Additive); // Load the encounter scene
         }
     }
 }

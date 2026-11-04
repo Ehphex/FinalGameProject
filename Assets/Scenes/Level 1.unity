@@ -236,7 +236,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c7cc790e051c064686e22db0d192ed9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FollowPlayer
-  speed: 1.5
+  speed: 9
   player: {fileID: 1700813040}
   isCollected: 0
 --- !u!61 &471055128
@@ -4074,7 +4074,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c7cc790e051c064686e22db0d192ed9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FollowPlayer
-  speed: 1.5
+  speed: 9
   player: {fileID: 1700813040}
   isCollected: 0
 --- !u!61 &812520334
@@ -4262,6 +4262,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Unlock
   key: {fileID: 471055127}
+  locker: {fileID: 0}
+  unlockedSprite: {fileID: -5893869014066933416, guid: b7b7a99d305e33d45b3f31e0883e5fd9, type: 3}
+  lockedSprite: {fileID: -6624544851544358095, guid: b7b7a99d305e33d45b3f31e0883e5fd9, type: 3}
   isUnlocked: 0
 --- !u!1 &1175706561
 GameObject:
@@ -5133,6 +5136,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Unlock
   key: {fileID: 812520333}
+  locker: {fileID: 0}
+  unlockedSprite: {fileID: 2244732039814645254, guid: 3dd92bc70621bef439cc31e7c04cb69f, type: 3}
+  lockedSprite: {fileID: -2889026573186273937, guid: 3dd92bc70621bef439cc31e7c04cb69f, type: 3}
   isUnlocked: 0
 --- !u!1 &2134448171 stripped
 GameObject:
