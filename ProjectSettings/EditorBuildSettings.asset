@@ -6,9 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/All Encounters/Intro Encounter.unity
+    guid: 97aa790fa16a64e0cad76b115212e960
+  - enabled: 1
     path: Assets/Scenes/All Encounters/Encounter 1.unity
     guid: c407910e6a65b4a0cae1426afb9fc477
   - enabled: 1
+    path: Assets/Scenes/All Encounters/Encounter 2.unity
+    guid: e6fc860c16b4342548ca420d70f743ef
+  - enabled: 0
     path: Assets/Scenes/Encounter 2.unity
     guid: 7f2353840a1ea4cce998452247fb136a
   - enabled: 1
