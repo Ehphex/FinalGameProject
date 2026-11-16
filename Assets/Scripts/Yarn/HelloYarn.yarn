@@ -7,7 +7,7 @@ Hello World!
 title: TalkToMerchant
 position: 32,-25
 ---
-Merchant: Hey Stanger! The name's Sherry!
+Merchant: Hey Stranger! The name's Sherry!
 Sherry: I'm not really with the batallion. Just a traveling merchant with wares to sell.
 Sherry: From potions to daggers, I have it all.
 Sherry: You look like someone who knows their way around a blade.
@@ -19,8 +19,7 @@ Sherry: What say you? Care to look at my wares?
    
    
 -> No
-   Sherry: Well, I'll be hereshould you change your mind.
+   Sherry: Well, I'll be here should you change your mind.
    <<declare $num1 = 1>>
-   
-   
+   <<declare $>>  
 ===

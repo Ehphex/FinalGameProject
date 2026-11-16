@@ -28,8 +28,6 @@ public class PlayerController : MonoBehaviour
         Vector2 moveVelocity = moveInput * movementSpeed * Time.fixedDeltaTime * sprintMultiplier;
         rb.linearVelocity = moveVelocity;
 
-        
-
     }
 
     private void OnTriggerEnter2D(Collider2D other)
