@@ -13,7 +13,7 @@ public class YarnFunctions : MonoBehaviour
         storage.SetValue("money", money);
     }
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    [YarnCommand] public void GetVariable(int num)
+    [YarnCommand] public static void GetVariable(int num)
     {
         Debug.Log("Variable value: " + num);
     }

@@ -8,6 +8,8 @@ TagManager:
   - bluekey
   - redkey
   - Arrow
+  - redtile
+  - greentile
   layers:
   - Default
   - TransparentFX
@@ -15,7 +17,7 @@ TagManager:
   - 
   - Water
   - UI
-  - 
+  - Main Player
   - Player
   - tiles
   - 
@@ -44,6 +46,9 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Main Player
+    uniqueID: 3849638429
     locked: 0
   - name: Player
     uniqueID: 366602351
