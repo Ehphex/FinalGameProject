@@ -28,16 +28,19 @@ public class PlayerController : MonoBehaviour
         Vector2 moveVelocity = moveInput * movementSpeed * Time.fixedDeltaTime * sprintMultiplier;
         rb.linearVelocity = moveVelocity;
 
-        
-
     }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Arrow"))
+        if (other.CompareTag("Arrow") || other.CompareTag("redtile"))
         {
+            Debug.Log("Touched");
             transform.position = spawnPoint.transform.position;
-            Destroy(other.gameObject); // Move the player to the spawn point
+            if (other.gameObject.CompareTag("Arrow"))
+            {
+                 Destroy(other.gameObject);
+            }
+             // Move the player to the spawn point
         }
     }
 
