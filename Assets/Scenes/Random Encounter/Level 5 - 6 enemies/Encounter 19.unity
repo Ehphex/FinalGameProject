@@ -540,9 +540,9 @@ MonoBehaviour:
   isPlayer: 0
   maxMeleeHealth: 30
   maxRangeHealth: 20
-  meleeDamage: 7
-  rangeDamage: 10
-  guardReduction: 0.2
+  meleeDamage: 80
+  rangeDamage: 70
+  guardReduction: 0.1
   enemyTarget: {fileID: 517408871}
   meleeHealthSlider: {fileID: 1661078213}
   rangeHealthSlider: {fileID: 454390014}

@@ -538,10 +538,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AttackScript
   isPlayer: 0
-  maxMeleeHealth: 30
+  maxMeleeHealth: 100
   maxRangeHealth: 20
-  meleeDamage: 7
-  rangeDamage: 10
+  meleeDamage: 70
+  rangeDamage: 80
   guardReduction: 0.2
   enemyTarget: {fileID: 517408871}
   meleeHealthSlider: {fileID: 1661078213}
