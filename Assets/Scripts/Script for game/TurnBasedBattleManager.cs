@@ -100,6 +100,8 @@ public class TurnBasedBattleManager : MonoBehaviour
 
     private void FinishPlayerTurn()
     {
+        Scene currentScene = gameObject.scene;
+
         if (!enemy.IsAlive)
         {
             if (battleText != null)
@@ -107,17 +109,17 @@ public class TurnBasedBattleManager : MonoBehaviour
                 if (enemy.WasKilled)
                 {
                     battleText.text = "Enemy was killed!";
-                    SceneManager.UnloadSceneAsync("Encounter 1"); // Unload the encounter scene
+                    SceneManager.UnloadSceneAsync(currentScene); // Unload the encounter scene
                 }
                 else if (enemy.WasCaptured)
                 {
                     battleText.text = "Enemy was captured!";
-                    SceneManager.UnloadSceneAsync("Encounter 1"); // Unload the encounter scene
+                    SceneManager.UnloadSceneAsync(currentScene); // Unload the encounter scene
                 }
                 else
                 {
                     battleText.text = "Victory!";
-                    SceneManager.UnloadSceneAsync("Encounter 1");
+                    SceneManager.UnloadSceneAsync(currentScene);
                 }
             }
             playerTurn = false;
@@ -132,6 +134,8 @@ public class TurnBasedBattleManager : MonoBehaviour
 
     private IEnumerator EnemyTurnRoutine()
     {
+        int currentBuild = SceneManager.GetActiveScene().buildIndex;
+
         if (battleText != null)
         {
             battleText.text = "Enemy turn";
@@ -148,10 +152,11 @@ public class TurnBasedBattleManager : MonoBehaviour
                     battleText.text = "You were killed!";
                     SceneManager.LoadScene("Entrance");
                 }
+
                 else if (player.WasCaptured)
                 {
                     battleText.text = "You were Burned out!";
-                    SceneManager.LoadScene("Level 1");
+                    SceneManager.LoadScene(currentBuild);
                 }
                 else
                 {
@@ -189,7 +194,7 @@ public class TurnBasedBattleManager : MonoBehaviour
                 else if (player.WasCaptured)
                 {
                     battleText.text = "You were captured!";
-                    SceneManager.LoadScene("Level 1");
+                    SceneManager.LoadScene(currentBuild);
                 }
                 else
                 {

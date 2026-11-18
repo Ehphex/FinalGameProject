@@ -14,6 +14,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/All Encounters/Encounter 2.unity
     guid: e6fc860c16b4342548ca420d70f743ef
+  - enabled: 1
+    path: Assets/Scenes/All Encounters/Encounter 3.unity
+    guid: 2be511bcab2444367958c6af120aa610
+  - enabled: 1
+    path: Assets/Scenes/All Encounters/Encounter 4.unity
+    guid: dc7be241feaff40c6a05813e52982c7f
   - enabled: 0
     path: Assets/Scenes/Encounter 2.unity
     guid: 7f2353840a1ea4cce998452247fb136a
@@ -32,5 +38,29 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level 4.unity
     guid: a11bd375d17a3194990cb05bed8979e7
+  - enabled: 1
+    path: Assets/Scenes/Random Encounter/Level 1 - 2 enemies/Encounter 9.unity
+    guid: 3bf217670c3d94ea083cb2ea90cde651
+  - enabled: 1
+    path: Assets/Scenes/Random Encounter/Level 1 - 2 enemies/Encounter 10.unity
+    guid: e1b643464f1f84f3195b938c02a4c25a
+  - enabled: 1
+    path: Assets/Scenes/Random Encounter/Level 1 - 2 enemies/Encounter 11.unity
+    guid: 9cab5981f3550407d94b747420c4a372
+  - enabled: 1
+    path: Assets/Scenes/Random Encounter/Level 1 - 2 enemies/Encounter 12.unity
+    guid: c87163b76ddbd44beb27b1472088339b
+  - enabled: 1
+    path: Assets/Scenes/Random Encounter/Level 3 - 4 eneimes/Encounter 13.unity
+    guid: bc8e33a305d1641f0ae71198cad6b72c
+  - enabled: 1
+    path: Assets/Scenes/Random Encounter/Level 3 - 4 eneimes/Encounter 14.unity
+    guid: 53805e2a632704a09b00ae897299d37a
+  - enabled: 1
+    path: Assets/Scenes/Random Encounter/Level 3 - 4 eneimes/Encounter 15.unity
+    guid: 4884f5e3732964851b8b97b39781f86d
+  - enabled: 1
+    path: Assets/Scenes/Random Encounter/Level 3 - 4 eneimes/Encounter 16.unity
+    guid: 280b07517e357440dbcea3f298d36724
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}

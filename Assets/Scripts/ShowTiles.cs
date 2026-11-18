@@ -1,3 +1,4 @@
+using Unity.Cinemachine;
 using UnityEngine;
 
 public class ShowTiles : MonoBehaviour
@@ -10,24 +11,41 @@ public class ShowTiles : MonoBehaviour
     public Sprite unpressedSprite;
 
     public float alpha = 0.0f;
+
+    public CinemachineCamera vcam;
+    public float zoomedOut;
+    public float zoomSpeed;
+    private float defaultSize;
+
+    private float targetsize;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
         spriteRenderer.sprite = unpressedSprite;
+
+        if (vcam != null)
+        {
+            defaultSize = vcam.Lens.OrthographicSize;
+            targetsize = defaultSize;
+        }
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if (vcam != null)
+        {
+            vcam.Lens.OrthographicSize = Mathf.Lerp(vcam.Lens.OrthographicSize,targetsize,Time.deltaTime * zoomSpeed);
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
         {
-           
+           targetsize = zoomedOut;
            foreach (GameObject tile in greenTiles)
             {
                 SpriteRenderer sprite = tile.GetComponent<SpriteRenderer>();
@@ -45,7 +63,7 @@ public class ShowTiles : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-           
+           targetsize = defaultSize;
            foreach (GameObject tile in greenTiles)
             {
                 SpriteRenderer sprite = tile.GetComponent<SpriteRenderer>();
