@@ -8,6 +8,17 @@ TagManager:
   - bluekey
   - redkey
   - Arrow
+  - redtile
+  - greentile
+  - tutorial
+  - merchant
+  - random
+  - boss
+  - random2
+  - door
+  - guard1
+  - guard2
+  - guard3
   layers:
   - Default
   - TransparentFX
@@ -15,7 +26,7 @@ TagManager:
   - 
   - Water
   - UI
-  - 
+  - Main Player
   - Player
   - tiles
   - 
@@ -44,6 +55,9 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Main Player
+    uniqueID: 3849638429
     locked: 0
   - name: Player
     uniqueID: 366602351

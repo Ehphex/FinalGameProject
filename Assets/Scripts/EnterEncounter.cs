@@ -1,5 +1,7 @@
+using System;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+
 
 public class EnterEncounter : MonoBehaviour
 {
@@ -11,9 +13,27 @@ public class EnterEncounter : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             Debug.Log("Player entered encounter area!");
-        
-            SceneManager.LoadScene(bossNumber - 1, LoadSceneMode.Additive); // Load the encounter scene
-            Destroy(gameObject);
+            String myTag = gameObject.tag;
+            if (myTag == "boss")
+            {
+                SceneManager.LoadScene(bossNumber, LoadSceneMode.Additive); 
+                Destroy(gameObject);
+            }
+
+            if (myTag == "random")
+            {
+                int randNumber = UnityEngine.Random.Range(10, 13);
+                SceneManager.LoadScene(randNumber, LoadSceneMode.Additive);
+                Destroy(gameObject); 
+            }
+
+            if (myTag == "random2")
+            {
+                int randNumber = UnityEngine.Random.Range(14, 17);
+                SceneManager.LoadScene(randNumber, LoadSceneMode.Additive);
+                Destroy(gameObject); 
+            }
+            
         }
     }
 }

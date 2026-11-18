@@ -5,6 +5,17 @@ public class EnterEntrance : MonoBehaviour
     [SerializeField] private LocksManager lockManager;
     [SerializeField] bool nextFloor;
 
+    [SerializeField] GameObject enemy;
+
+    void Update()
+    {   
+        bool unlocked = lockManager.CheckLocks();
+        if (unlocked)
+        {
+            Debug.Log("Unlocked");
+            enemy.SetActive(true);
+        }
+    }
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
