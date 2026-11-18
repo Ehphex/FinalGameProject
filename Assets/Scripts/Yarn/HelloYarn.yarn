@@ -1,0 +1,71 @@
+title: Start
+position: -176,-211
+---
+Hello World!
+
+===
+title: TalkToMerchant
+position: 32,-25
+---
+Finicky Merchant: Hey Stranger! The name's Sherry!
+Sherry: I'm not really with the army. Just a traveling merchant with wares to sell.
+Sherry: From potions to daggers, I have it all.
+Sherry: You look like someone who knows their way around a blade.
+Sherry: What say you? Care to look at my wares?
+-> Yes
+    Sherry: Great! Though I am low on potions at the moment.
+    <<declare $num = 0>>
+    <<GetVariable {$num}>>  
+-> No
+    Sherry: Well, I'll be here should you change your mind.
+    <<declare $num1 = 1>>
+    <<GetVariable {$num1}>>  
+===
+title: Tutorial
+---
+???: Boy, am I glad to see you! Better than all the tired and sick faces I've seen too much of.
+???: It's rather dangerous as you can see. We're the lucky few that were able to make out alive.
+???: There are hundreds of creatures in there I've never seen before. Monsters...
+???: Looking at you I can tell you know how to fight, but I'd suggest some practice before you enter.
+???: How about it?
+-> It wouldn't hurt
+    ???: Great! Just enter the space right net to me to make knock the rust off.
+    Maxey: The name's Maxey by the way.
+-> I think I'll be okay.
+    ???: Don't say I didn't warn you. 
+===
+
+title: NewDoor
+---
+The exit won't budge!
+The lock looks more... magical than the others.
+Maybe someone at the entrance knows something about this.
+===
+title: guard1
+---
+Analytical Guard: Hey friend. The name's Fergy.
+Fergy: You plan to enter the ruins?
+-> Yes
+    Fergy: Well... good luck.
+    Fergy: We didn't get far in. But for the areas we did get to, we were able to set waypoints back to the entrance should you need to return.
+    Fergy: The bright green spots, you can't miss 'em.
+    Fergy: No much... but it's something.
+
+-> No
+    Fergy: I don't blame ya.
+    Fergy: If a whole army couldn't handle it. I don't see how one measley mercenary could fare better.
+    Fergy: ...No offence.
+===
+
+title: guard2
+---
+Injured Guard: Really?
+Injured Guard: One person. Is that all the kingdom could send to help us?
+Injured Guard: Is that all we are worth?
+===
+
+title: guard3
+---
+Frightened Guard: Those creatures...
+Frightened Guard: Don't let them out! Just seal the door and pay them no mind!
+===

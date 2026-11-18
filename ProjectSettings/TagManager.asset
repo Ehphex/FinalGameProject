@@ -2,8 +2,23 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!78 &1
 TagManager:
-  serializedVersion: 2
-  tags: []
+  serializedVersion: 3
+  tags:
+  - Key
+  - bluekey
+  - redkey
+  - Arrow
+  - redtile
+  - greentile
+  - tutorial
+  - merchant
+  - random
+  - boss
+  - random2
+  - door
+  - guard1
+  - guard2
+  - guard3
   layers:
   - Default
   - TransparentFX
@@ -11,9 +26,9 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
+  - Main Player
+  - Player
+  - tiles
   - 
   - 
   - 
@@ -41,6 +56,18 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Main Player
+    uniqueID: 3849638429
+    locked: 0
+  - name: Player
+    uniqueID: 366602351
+    locked: 0
+  - name: Interactables
+    uniqueID: 195094355
+    locked: 0
+  - name: Tiles
+    uniqueID: 2051478935
+    locked: 0
   m_RenderingLayers:
   - Default
   - Light Layer 1
@@ -50,27 +77,4 @@ TagManager:
   - Light Layer 5
   - Light Layer 6
   - Light Layer 7
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  m_MigratedRenderPipelines: []
